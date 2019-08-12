@@ -10,8 +10,10 @@ import subprocess
 # sys.path.insert(1, os.path.abspath('/home/vladimir/Projects/ioninja/doxyrest/sphinx'))
 
 print("before exec...")
-subprocess.run(["ls", "/bin"])
+subprocess.run(["uname", "-a"])
 subprocess.run(["doxygen", "--version"])
+subprocess.run(["c++", "--version"])
+subprocess.run(["cmake", "--version"])
 print("after exec...")
 
 # -- General configuration ------------------------------------------------
