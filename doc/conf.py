@@ -6,7 +6,7 @@
 import os
 import sys
 
-sys.path.insert(1, os.path.abspath('/home/vladimir/Projects/ioninja/doxyrest/sphinx'))
+# sys.path.insert(1, os.path.abspath('/home/vladimir/Projects/ioninja/doxyrest/sphinx'))
 
 # -- General configuration ------------------------------------------------
 
@@ -17,7 +17,7 @@ sys.path.insert(1, os.path.abspath('/home/vladimir/Projects/ioninja/doxyrest/sph
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['doxyrest', 'cpplexer']
+extensions = [] # ['doxyrest', 'cpplexer']
 
 # disable permalinks
 html_add_permalinks = ''
