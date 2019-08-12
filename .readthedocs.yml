@@ -1,0 +1,11 @@
+version: 2
+
+build:
+  image: stable
+
+python:
+  version: 3.7
+
+sphinx:
+  builder: html
+  configuration: doc/conf.py
