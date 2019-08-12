@@ -5,8 +5,14 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 import os
 import sys
+import subprocess
 
 # sys.path.insert(1, os.path.abspath('/home/vladimir/Projects/ioninja/doxyrest/sphinx'))
+
+print("before exec...")
+subprocess.run(["ls", "/bin"])
+subprocess.run(["doxygen", "--version"])
+print("after exec...")
 
 # -- General configuration ------------------------------------------------
 
